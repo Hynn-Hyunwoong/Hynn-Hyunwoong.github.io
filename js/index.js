@@ -12,5 +12,5 @@ function EventHandler2(e){
     navmenu.classList.remove('on')
 }
 
-menuicon.addEventListener('mouseover', EventHandler)
+menuicon.addEventListener('click', EventHandler)
 navmenu.addEventListener('click', EventHandler2)
