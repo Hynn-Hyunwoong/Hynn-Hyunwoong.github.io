@@ -30,6 +30,9 @@ a {
     display:flex;
     align-items: center;
     flex-wrap:nowrap;
+    justify-content:end;
+    font-size: 20px;
+    padding-left: 150px;
 }
 
 #header > #menuicon {
