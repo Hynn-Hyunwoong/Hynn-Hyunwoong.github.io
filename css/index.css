@@ -342,7 +342,6 @@ a {
     text-align: center;
     border-bottom: 1px solid #f5f5f7;
     padding : 25px 0 25px 0;
-    border-bottom: 1px solid #f5f5f7;
     box-sizing: border-box;
     font-size: 48px;
     color: #6e6e73;
@@ -429,11 +428,10 @@ a {
     }
 }
 #Skill > #Skill_Header {
-width:100%;
+    width:100%;
     text-align: center;
     border-bottom: 1px solid #f5f5f7;
     padding : 25px 0 25px 0;
-    border-bottom: 1px solid #f5f5f7;
     box-sizing: border-box;
     font-size: 48px;
 }
@@ -442,6 +440,7 @@ width:100%;
     width:100%;
     padding: 100px 0;
     display: flex;
+    border-bottom: 1px solid #f5f5f7;
 }
 
 #Skill > #Skill_Area > #Skill_Left {
@@ -520,4 +519,74 @@ width:100%;
         display: block;
         padding : 0 10px;
     }
+}
+
+#Project > #Project_Header {
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f7;
+    padding : 25px 0 25px 0;
+    box-sizing: border-box;
+    font-size: 48px;
+}
+
+#Project > #Project_Content_TypeA {
+    width:100%;
+    margin : 0 auto;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+
+#Project > #Project_Content_TypeA > #Project_img {
+    display: inline-block;
+    width:45%;
+}
+
+#Project > #Project_Content_TypeA > #Project_prev {
+    width:50%;
+    float:left;
+}
+
+#Project > #Project_Content_TypeB {
+    width:100%;
+    margin : 0 auto;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+
+#Project > #Project_Content_TypeB > #Project_img {
+    display: inline-block;
+    width:45%;
+}
+
+#Project > #Project_Content_TypeB > #Project_prev {
+    width:50%;
+    float:right;
+}
+
+@media screen and (min-width:200px) and (max-width:480px){
+    #Project > #Project_Content_TypeA {
+        width:100%;
+        margin : 0 auto;
+        padding-top:10px;
+        box-sizing: border-box;
+    }
+
+    #Project > #Project_Content_TypeB {
+        width:100%;
+        margin : 0 auto;
+        padding-top:10px;
+        box-sizing: border-box;
+    }
+
+    #Project > #Project_Content_TypeA > #Project_img {
+        display: block;
+        width:100%;
+    }
+    
+    #Project > #Project_Content_TypeA > #Project_prev {
+        width:100%;
+        display:block;
+    }
+
 }
