@@ -279,6 +279,7 @@ a {
         width:100%;
         text-align: center;
         border-bottom: 1px solid #f5f5f7;
+        display: block;
     }
     
     #About > #About_head {
@@ -289,12 +290,12 @@ a {
     }
 
     #About > #AboutAreaA {
-        float:left;
+        /* float:left; */
         width:100%;
     }
     
     #About > #AboutAreaB {
-        float:left;
+        /* float:left; */
         max-width:100%;
         height:auto;
     }
@@ -328,5 +329,95 @@ a {
     .imgicon{
         width:30px;
         height:30px;
+    }
+}
+
+
+#Experience > #Experience_Header {
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f7;
+    padding : 25px 0 25px 0;
+    border-bottom: 1px solid #f5f5f7;
+    box-sizing: border-box;
+    font-size: 48px;
+    color: #6e6e73;
+    background-color: #f9fbfd;
+}
+
+.Exp_contents {
+    background-color: #f9fbfd;
+}
+
+.Exp_contents > .Exp_view > .Exp_content1 {
+    padding: 80px 10px;
+    width:30%;
+    display:inline-block;
+}
+
+.Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec1 {
+    width:33%;
+}
+
+.Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec1 > h2 {
+    font-size: 16px;
+}
+
+.Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec1 > h3 {
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: 1.4;
+}
+
+
+.Exp_contents > .Exp_view > .Exp_content1 > .Exp_line {
+    padding : 26px 0 30px 0;    
+}
+
+.Exp_contents > .Exp_view > .Exp_content1 > .Exp_line > .Exp_liner {
+    display: inline-block;
+    background:#b2c1ce;
+    height:1px;
+    width: 94%;
+}
+
+.Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec2 > H4 {
+    font-size: 16px;
+}
+
+.Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec2 > H5{
+    margin : 15px 0;
+    font-size: 15px;
+    font-weight: 2;
+}
+
+.Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec2 > p {
+    font-size: 14px;
+    color: #6e6e73;
+}
+
+@media screen and (min-width:200px) and (max-width:480px){
+    #Experience > #Experience_Header {
+        padding : 0 0 10px 0;
+        border-bottom: 1px solid #f5f5f7;
+        box-sizing: border-box;
+        font-size: 48px;
+        color: #6e6e73;
+    }
+    .Exp_contents > .Exp_view > .Exp_content1 {
+        width:100%;
+        padding : 20px 0;
+    }
+    
+    .Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec1 {
+        width:100%;
+    }
+
+    .Exp_contents > .Exp_view > #mobile2 {
+        background-color: #fff;
+    }
+
+    .Exp_contents > .Exp_view > #mobile3 {
+        background-color: #f5f5f7;
     }
 }
