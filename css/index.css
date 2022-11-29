@@ -369,8 +369,12 @@ a {
 .Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec1 > h3 {
     margin-top: 14px;
     font-size: 14px;
-    font-weight: 1.4;
+    font-weight: 3.5;
 }
+
+.Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec1 > p {
+    font-size: 12px;
+} 
 
 
 .Exp_contents > .Exp_view > .Exp_content1 > .Exp_line {
@@ -381,7 +385,7 @@ a {
     display: inline-block;
     background:#b2c1ce;
     height:1px;
-    width: 94%;
+    width: 92%;
 }
 
 .Exp_contents > .Exp_view > .Exp_content1 > .Exp_sec2 > H4 {
@@ -422,5 +426,98 @@ a {
 
     .Exp_contents > .Exp_view > #mobile3 {
         background-color: #f5f5f7;
+    }
+}
+#Skill > #Skill_Header {
+width:100%;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f7;
+    padding : 25px 0 25px 0;
+    border-bottom: 1px solid #f5f5f7;
+    box-sizing: border-box;
+    font-size: 48px;
+}
+
+#Skill > #Skill_Area {
+    width:100%;
+    padding: 100px 0;
+    display: flex;
+}
+
+#Skill > #Skill_Area > #Skill_Left {
+    width:45%;
+    display:flex;
+    flex-direction: column;
+}
+
+#Skill > #Skill_Area > #Skill_Left > #Skill_Item {
+    margin : 50px 0;
+}
+
+#Skill > #Skill_Area > #Skill_Left > #Skill_Item > div > .title {
+    font-size: 18px;
+    color: #676A81;
+}
+
+#Skill > #Skill_Area > #Skill_Left > #Skill_Item > #per_var {
+    margin-top:20px;
+    width: 90%;
+    height: 20px;
+    box-shadow: inset 1px 1px 2px #fff;
+    color: #93F9B9;
+    text-align: center;
+}
+
+
+#Skill > #Skill_Area > #Skill_Left > #Skill_Item > #status {
+    display: inline-block;
+}
+
+#Skill > #Skill_Area > #Skill_Right {
+    display:flex;
+    flex-direction: column;
+    width:45%;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+
+#Skill > #Skill_Area > #Skill_Right > #Skill_Item {
+    margin : 50px 0;
+}
+
+#Skill > #Skill_Area > #Skill_Right > #Skill_Item > div > .title {
+    font-size: 18px;
+    color: #676A81;
+}
+
+#Skill > #Skill_Area > #Skill_Right > #Skill_Item > #per_var {
+    margin-top:20px;
+    width: 90%;
+    height: 20px;
+    box-shadow: inset 1px 1px 2px #fff;
+    color: #93F9B9;
+    text-align: center;
+}
+
+#Skill > #Skill_Area > #Skill_Right > #Skill_Item > #status {
+    display: inline-block;
+}
+
+@media screen and (min-width:200px) and (max-width:480px){
+    #Skill > #Skill_Area {
+        display: block;
+        padding : 10px 0;
+    }
+    
+    #Skill > #Skill_Area > #Skill_Left {
+        width:100%;
+        display: block;
+        padding : 0 10px;
+    }
+
+    #Skill > #Skill_Area > #Skill_Right {
+        width:100%;
+        display: block;
+        padding : 0 10px;
     }
 }
