@@ -488,7 +488,15 @@ a {
 
 #Skill > #Skill_Area > #Skill_Right > #Skill_Item {
     margin : 50px 0;
+    text-align: center;
 }
+
+#Skill_img {
+    width: 100px;
+    height:auto;
+    align-content: center;
+}
+
 
 #Skill > #Skill_Area > #Skill_Right > #Skill_Item > div > .title {
     font-size: 18px;
