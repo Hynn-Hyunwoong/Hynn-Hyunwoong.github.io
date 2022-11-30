@@ -428,6 +428,10 @@ a {
     .Exp_contents > .Exp_view > #mobile3 {
         background-color: #f5f5f7;
     }
+
+    .Exp_sec1 {
+        text-align: center;
+    }
 }
 #Skill > #Skill_Header {
     width:100%;
@@ -514,6 +518,7 @@ a {
         width:100%;
         display: block;
         padding : 0 10px;
+        box-sizing: border-box;
     }
 
     #Skill > #Skill_Area > #Skill_Right {
@@ -586,10 +591,16 @@ a {
         display: block;
         width:100%;
     }
+
+    #Project > #Project_Content_TypeA > #Project_img > img {
+        width:100%;
+        height:auto;
+    }
     
     #Project > #Project_Content_TypeA > #Project_prev {
         width:100%;
         display:block;
+        margin : 0 5px;
     }
 
 }
@@ -644,15 +655,12 @@ a {
 }
 
 .input_ps_box1 {
-    /* display: flex;
-    flex-wrap: nowrap; */
     width:45%;
     height: 55px;
-    padding: 10px 110px 14px 10px;
+    padding: 10px 10px 14px 10px;
     border: 1px solid #dadada;
     box-sizing: border-box;
-    background:white;
-    /* margin: 0 10px; */
+    background:white;    
 }
 
 .input_ps_box2 {
@@ -660,7 +668,7 @@ a {
     flex-wrap: nowrap;
     width:100%;
     height: 55px;
-    padding: 10px 110px 14px 10px;
+    padding: 10px 10px 14px 10px;
     border: 1px solid #dadada;
     box-sizing: border-box;
     background:white;
@@ -672,7 +680,7 @@ a {
     flex-wrap: nowrap;
     width:100%;
     height: 250px;
-    padding: 10px 110px 14px 10px;
+    padding: 10px 10px 14px 10px;
     border: 1px solid #dadada;
     box-sizing: border-box;
     background:white;
@@ -791,6 +799,130 @@ a {
     position: absolute;
     width:500px;
     height:80px;
+}
+
+@media screen and (min-width:200px) and (max-width:600px){
+    #Contact > #Contact_content{
+        display: block;
+    }
+    
+    #Contact > #Contact_content > #Contact_input {
+        display: block;
+        width:100%;
+        padding : 0 20px;
+        box-sizing: border-box;
+    }
+
+    #Contact > #Contact_content > #Contact_input > #Area_1 > #namebox {
+        margin-bottom: 20px;
+    }
+
+    .input_ps_box1 {
+        width:100%;
+        height: 55px;
+        padding: 10px 10px 14px 10px;
+        border: 1px solid #dadada;
+        box-sizing: border-box;
+        background:white;    
+        display:block;
+    }
+    
+    .input_ps_box2 {
+        display: flex;
+        flex-wrap: nowrap;
+        width:100%;
+        height: 55px;
+        padding: 10px 10px 14px 10px;
+        border: 1px solid #dadada;
+        box-sizing: border-box;
+        background:white;
+    
+    }
+    
+    .input_ps_box3 {
+        display: flex;
+        flex-wrap: nowrap;
+        width:100%;
+        height: 250px;
+        padding: 10px 10px 14px 10px;
+        border: 1px solid #dadada;
+        box-sizing: border-box;
+        background:white;
+        
+    }
+    .input_ps_box1 > #con_name {
+        border: none;
+        height:29px;
+        position: relative;
+        display: block;
+        outline: 0;
+        font-size: 16px;
+    }
+    
+    .input_ps_box1 > #con_mail {
+        border: none;
+        height:29px;
+        position: relative;
+        display: block;
+        outline: 0;
+        font-size: 16px;
+    }
+    
+    .input_ps_box2 > #con_subject {
+        border: none;
+        height:29px;
+        position: relative;
+        display: block;
+        outline: 0;
+        font-size: 16px;
+        size:27.5;
+    }
+    
+    .input_ps_box3 > #con_body {
+        border: none;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: block;
+        outline: 0;
+        font-size: 16px;
+        overflow: auto;
+        resize: none;
+        font-size: 16px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #Contact > #Contact_content > #Contact_input > #Area_1 {
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #Contact > #Contact_content > #Contact_Info{
+        width: 100%;
+    }
+
+    #Contact > #Contact_content > #Contact_Info > #Header {
+        width:100%;
+        padding : 20px 0;
+        box-sizing: border-box;
+        margin : 0 auto;
+        display:block;
+        text-align: center;
+    }
+
+    #Contact > #Contact_content > #Contact_Info > #Header {
+        display: inline-block;
+    }
+
+    #Contact > #Contact_content > #Contact_Info > #bottomurl {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+        height:auto;
+    }
 }
 
 #footer {
