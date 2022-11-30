@@ -18,7 +18,7 @@ function EventHandler2(e){
 
 function EventHandler3(e){
     console.log('hello')
-    if (Name.value == null, Email.value == null,Subject.value == null,Body.value == null) {
+    if (Name.value == '', Email.value == '',Subject.value == '',Body.value == '') {
         alert('Please Insert your Information')
     }else {
         alert('Thanks for Contact Hynn, We will soon update your Contact Information')       
